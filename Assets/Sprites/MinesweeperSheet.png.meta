@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 6b4ed61d3c86ba5469c580d2bc62f5ed
+timeCreated: 1459012479
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MinesweeperSheet_0
+    21300002: MinesweeperSheet_1
+    21300004: MinesweeperSheet_2
+    21300006: MinesweeperSheet_3
+    21300008: MinesweeperSheet_4
+    21300010: MinesweeperSheet_5
+    21300012: MinesweeperSheet_6
+    21300014: MinesweeperSheet_7
+    21300016: MinesweeperSheet_8
+    21300018: MinesweeperSheet_9
+    21300020: MinesweeperSheet_10
+    21300022: MinesweeperSheet_11
+    21300024: MinesweeperSheet_12
+    21300026: MinesweeperSheet_13
+    21300028: MinesweeperSheet_14
+    21300030: MinesweeperSheet_15
+    21300032: MinesweeperSheet_16
+    21300034: MinesweeperSheet_17
+    21300036: MinesweeperSheet_18
+    21300038: MinesweeperSheet_19
+    21300040: MinesweeperSheet_20
+    21300042: MinesweeperSheet_21
+    21300044: MinesweeperSheet_22
+    21300046: MinesweeperSheet_23
+    21300048: MinesweeperSheet_24
+    21300050: MinesweeperSheet_25
+    21300052: MinesweeperSheet_26
+    21300054: MinesweeperSheet_27
+    21300056: MinesweeperSheet_28
+    21300058: MinesweeperSheet_29
+    21300060: MinesweeperSheet_30
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 1
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MinesweeperSheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 86
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 86
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 86
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 86
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_4
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 86
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 86
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_6
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 86
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 86
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 86
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 86
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 59
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_11
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 59
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 59
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 59
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_14
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 59
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_16
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_17
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_19
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_20
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_21
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_22
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_24
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_25
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_26
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_27
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_28
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_29
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MinesweeperSheet_30
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
