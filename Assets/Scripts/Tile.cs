@@ -1,21 +1,24 @@
-﻿using UnityEngine;
+using UnityEngine;
 
-public class Tile : MonoBehaviour {
-
+public class Tile : MonoBehaviour
+{
 	public bool isMine, uncovered, flagged;
 	public int adjacentMines;
 
-	private static bool firstClickMade;
+	static bool firstClickMade;
 
-	void Awake () {
+
+	void Awake()
+	{
 		isMine = false;
 		uncovered = false;
 		flagged = false;
 
 		firstClickMade = false;
 	}
-	
-	void Update () {
+
+	void Update()
+	{
 		Animator animator = GetComponent<Animator>();
 
 		animator.SetBool("isMine", isMine);
@@ -23,8 +26,10 @@ public class Tile : MonoBehaviour {
 		animator.SetBool("flagged", flagged);
 	}
 
-	void OnMouseOver () {
-		if (Input.GetMouseButtonDown(0) && !firstClickMade) {
+	void OnMouseOver()
+	{
+		if (Input.GetMouseButtonDown(0) && !firstClickMade)
+		{
 			Grid.instance.PlaceMines(this);
 			firstClickMade = true;
 		}
@@ -36,19 +41,26 @@ public class Tile : MonoBehaviour {
 			Uncover();
 	}
 
-	public void DetectAdjacentMines () {
+
+	public void DetectAdjacentMines()
+	{
 		adjacentMines = Grid.instance.GetComponent<Grid>().AdjacentMines(this);
 		GetComponent<Animator>().SetInteger("adjacentMines", adjacentMines);
 	}
 
-	private void SetFlag () {
-		if (!uncovered) {
+
+	void SetFlag()
+	{
+		if (!uncovered)
+		{
 			flagged = !flagged;
 		}
 	}
 
-	private void Uncover () {
-		if (!flagged) {
+	void Uncover()
+	{
+		if (!flagged)
+		{
 			uncovered = true;
 			Grid.instance.decrementCoveredCount();
 
@@ -59,17 +71,20 @@ public class Tile : MonoBehaviour {
 		}
 	}
 
-	private void UncoverChain () {
+	void UncoverChain()
+	{
 		if (!uncovered)
 			Grid.instance.decrementCoveredCount();
+
 		uncovered = true;
-		if (adjacentMines == 0) {
+		if (adjacentMines == 0)
+		{
 			Tile[] tileset = Grid.instance.AdjacentTiles(this);
-			foreach (Tile t in tileset) {
+			foreach (Tile t in tileset)
+			{
 				if (!t.isMine && !t.flagged && !t.uncovered)
 					t.GetComponent<Tile>().UncoverChain();
 			}
 		}
 	}
-
 }
