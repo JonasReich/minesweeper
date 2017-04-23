@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Manages the most basic game rules
+/// </summary>
 public class GameManager : MonoBehaviour
 {
 	public static GameManager instance;

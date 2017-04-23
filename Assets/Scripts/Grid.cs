@@ -2,6 +2,9 @@ using UnityEngine;
 using System.Collections;
 using System;
 
+/// <summary>
+/// A grid of Tiles
+/// </summary>
 public class Grid : MonoBehaviour
 {
 	public static Grid instance;

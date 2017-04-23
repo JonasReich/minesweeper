@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/// <summary>
+/// A single field of a grid
+/// </summary>
 public class Tile : MonoBehaviour
 {
 	public bool isMine, uncovered, flagged;
